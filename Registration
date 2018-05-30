@@ -1,1 +1,38 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Register Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+   Basic Registration Page 
+    <div>
+        <form method="GET">
+            First Name: <input type="text" name="firstname"><br> 
+            Last Name: <input type="text" name="lastname"><br>
+            Email: <input type="email" name="email" required><br>
+            Password: <input type"password" name="password" min="5"><br>
+            Birthday: <input type="date" name="birthday"><br>
+            Gender:<br>
+                <input type="radio" name="gender" value="Male">Male<br>
+                <input type="radio" name="gender" value="Female">Female<br>
+                <input type="radio" name="gender" value="Other">Other<br>
+            Pets: <br>
+                <input type="checkbox" name="cat">Cat<br>
+                <input type="checkbox" name="dog">Dog<br>
+            Cars:<br>
+                <select name="cars">
+                    <option value="honda" name="honda">Honda</option>
+                    <option value="ford" name="ford">Ford</option>
+                    <option value="nissan" name="nissan">Nissan</option>
+                </select><br>
+            <input type="submit" value="Register!">
+            <input type="reset">
+        </form>
+    </div> 
+</body>
+</html>
